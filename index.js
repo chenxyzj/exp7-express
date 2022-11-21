@@ -49,3 +49,6 @@ app.post('/api/sensors', (req, res) => {
  sensors.push(sensor);
  res.send(sensor);
 });
+
+// Export the Express API
+module.exports = app;
